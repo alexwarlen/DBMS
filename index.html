@@ -30,6 +30,9 @@
         // Set a callback to run when the Google Visualization API is loaded.
         google.charts.setOnLoadCallback(drawChart);
 
+        var hello = $.ajax(url: "getData.php", dataType: "string");
+        console.log(hello);
+        alert(hello, "hi");
         function drawChart() {
             var jsonData = $.ajax({
             url: "getData.php",
