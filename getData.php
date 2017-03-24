@@ -7,11 +7,11 @@
     $string = file_get_contents("sampleData.json");
     echo $string;
     
-    $query = "Select * from test";
+    /*$query = "Select * from test";
     echo $query;
     
     $exec = mysqli_query($con,$query);
-    echo $exec;
+    echo $exec;*/
 
 // Instead you can query your database and parse into JSON etc etc
 
