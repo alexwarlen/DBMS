@@ -19,11 +19,83 @@ oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 twitter = Twitter(auth=oauth)
             
 # Search for latest tweets about "#nlproc"
-resp = twitter.search.tweets(q='"University of Portland"', result_type='recent', lang='en', count=10)
+resp = twitter.search.tweets(q='"University of Portland"', result_type='recent', lang='en', count=100)
 
 #parsed = json.loads(resp)
-print json.dumps(resp, indent=4, sort_keys=True)
+#print json.dumps(resp, indent=4, sort_keys=True)
 
+
+import mysql.connector
+
+
+
+try:
+    cnx = mysql.connector.connect(user='warlen17', password='warlen17',
+                                  host='egr4.campus.up.edu',
+                                  database='warlen17')
+
+#for (a, b, c) in cursor:
+#print("{}, {} was hired on".format(a,b))
+
+except mysql.connector.Error as err:
+    if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
+        print("Something is wrong with your user name or password")
+    elif err.errno == errorcode.ER_BAD_DB_ERROR:
+        print("Database does not exist")
+    else:
+        print(err)
+#else:
+#cnx.close()
+
+
+
+for r in resp["statuses"]:
+    #tweet information
+    tweet_id = r["id"]
+    timestamp = r["created_at"]
+    favorite_ct = r["favorite_count"]
+    url = r["expanded_url"]
+    place = ""
+    if r["place"] != None:
+        place = r["place"]["full_name"]
+    retweets = r["retweet_count"]
+    tweet_text = r["text"]
+    
+    #user information
+    user = r["user"]
+    user_id = user["id"]
+    screenname = user["screen_name"]
+    followers = user["followers_count"]
+    friends = user["friends_count"]
+    location = user["location"]
+    user_since = user["created_at"]
+    user_description = user["description"]
+    favorites = user["favorites_count"]
+    user_name = user["name"]
+    timezone = user["time_zone"]
+    num_statuses = user["statuses_count"]
+    print user
+
+    #hashtags
+    if r["entities"] != None:
+        if r["entities"]["hashtags"] != None:
+            for h in r["entities"]["hashtags"]:
+                if cnx is None:
+                    print "no connection"
+                else:
+                    print cnx
+                    cursor = cnx.cursor()
+                
+                
+                    hashtag = h["text"]
+                    query = ("INSERT INTO hashtags"
+                             "(tweet_id, user_id, hashtag) "
+                             "VALUES (" + tweet_id +", " + user_id + ", \"" + hashtag + "\")")
+                    cursor.execute(query)
+
+
+cnx.close()
+'''
 
 import mysql.connector
 
@@ -57,4 +129,6 @@ except mysql.connector.Error as err:
 		print(err)
 else:
 	cnx.close()
+    
+    '''
 
