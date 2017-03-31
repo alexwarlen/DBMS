@@ -1,0 +1,2071 @@
+{
+    "search_metadata": {
+        "completed_in": 0.089, 
+        "count": 10, 
+        "max_id": 847240805261561856, 
+        "max_id_str": "847240805261561856", 
+        "next_results": "?max_id=846763245302038527&q=%22University%20of%20Portland%22&lang=en&count=10&include_entities=1&result_type=recent", 
+        "query": "%22University+of+Portland%22", 
+        "refresh_url": "?since_id=847240805261561856&q=%22University%20of%20Portland%22&lang=en&result_type=recent&include_entities=1", 
+        "since_id": 0, 
+        "since_id_str": "0"
+    }, 
+    "statuses": [
+        {
+            "contributors": null, 
+            "coordinates": null, 
+            "created_at": "Thu Mar 30 00:15:23 +0000 2017", 
+            "entities": {
+                "hashtags": [], 
+                "symbols": [], 
+                "urls": [], 
+                "user_mentions": [
+                    {
+                        "id": 79389335, 
+                        "id_str": "79389335", 
+                        "indices": [
+                            0, 
+                            10
+                        ], 
+                        "name": "D. TAGATS", 
+                        "screen_name": "xoxdaaisy"
+                    }
+                ]
+            }, 
+            "favorite_count": 1, 
+            "favorited": false, 
+            "geo": null, 
+            "id": 847240805261561856, 
+            "id_str": "847240805261561856", 
+            "in_reply_to_screen_name": "xoxdaaisy", 
+            "in_reply_to_status_id": null, 
+            "in_reply_to_status_id_str": null, 
+            "in_reply_to_user_id": 79389335, 
+            "in_reply_to_user_id_str": "79389335", 
+            "is_quote_status": false, 
+            "lang": "en", 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }, 
+            "place": null, 
+            "retweet_count": 0, 
+            "retweeted": false, 
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+            "text": "@xoxdaaisy thought University of Portland was in Kansas \ud83d\ude2d\ud83d\udc80", 
+            "truncated": false, 
+            "user": {
+                "contributors_enabled": false, 
+                "created_at": "Sat Feb 09 04:21:15 +0000 2013", 
+                "default_profile": true, 
+                "default_profile_image": false, 
+                "description": "oahu, hawaii \u2661 1 cor\u03b9n\u0442\u043d\u03b9an\u0455 13:4-8\u271d", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "favourites_count": 347, 
+                "follow_request_sent": false, 
+                "followers_count": 121, 
+                "following": false, 
+                "friends_count": 261, 
+                "geo_enabled": true, 
+                "has_extended_profile": true, 
+                "id": 1161931116, 
+                "id_str": "1161931116", 
+                "is_translation_enabled": false, 
+                "is_translator": false, 
+                "lang": "en", 
+                "listed_count": 0, 
+                "location": "", 
+                "name": "sheila agonoy\u2661", 
+                "notifications": false, 
+                "profile_background_color": "C0DEED", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "profile_background_tile": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1161931116/1481874047", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/841924807029608450/8JLAeAzT_normal.jpg", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/841924807029608450/8JLAeAzT_normal.jpg", 
+                "profile_link_color": "1DA1F2", 
+                "profile_sidebar_border_color": "C0DEED", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "profile_text_color": "333333", 
+                "profile_use_background_image": true, 
+                "protected": false, 
+                "screen_name": "SHEEILAA_x3", 
+                "statuses_count": 2754, 
+                "time_zone": null, 
+                "translator_type": "none", 
+                "url": null, 
+                "utc_offset": null, 
+                "verified": false
+            }
+        }, 
+        {
+            "contributors": null, 
+            "coordinates": {
+                "coordinates": [
+                    -122.72816601, 
+                    45.57444703
+                ], 
+                "type": "Point"
+            }, 
+            "created_at": "Wed Mar 29 16:39:10 +0000 2017", 
+            "entities": {
+                "hashtags": [
+                    {
+                        "indices": [
+                            51, 
+                            60
+                        ], 
+                        "text": "EyesShut"
+                    }, 
+                    {
+                        "indices": [
+                            61, 
+                            74
+                        ], 
+                        "text": "PURSUITalbum"
+                    }
+                ], 
+                "symbols": [], 
+                "urls": [
+                    {
+                        "display_url": "instagram.com/p/BSOqKZOFSdm/", 
+                        "expanded_url": "https://www.instagram.com/p/BSOqKZOFSdm/", 
+                        "indices": [
+                            100, 
+                            123
+                        ], 
+                        "url": "https://t.co/pCkUxNLXIB"
+                    }
+                ], 
+                "user_mentions": []
+            }, 
+            "favorite_count": 0, 
+            "favorited": false, 
+            "geo": {
+                "coordinates": [
+                    45.57444703, 
+                    -122.72816601
+                ], 
+                "type": "Point"
+            }, 
+            "id": 847125996168003584, 
+            "id_str": "847125996168003584", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_status_id": null, 
+            "in_reply_to_status_id_str": null, 
+            "in_reply_to_user_id": null, 
+            "in_reply_to_user_id_str": null, 
+            "is_quote_status": false, 
+            "lang": "en", 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }, 
+            "place": {
+                "attributes": {}, 
+                "bounding_box": {
+                    "coordinates": [
+                        [
+                            [
+                                -122.7900653, 
+                                45.421863
+                            ], 
+                            [
+                                -122.471751, 
+                                45.421863
+                            ], 
+                            [
+                                -122.471751, 
+                                45.6509405
+                            ], 
+                            [
+                                -122.7900653, 
+                                45.6509405
+                            ]
+                        ]
+                    ], 
+                    "type": "Polygon"
+                }, 
+                "contained_within": [], 
+                "country": "United States", 
+                "country_code": "US", 
+                "full_name": "Portland, OR", 
+                "id": "ac88a4f17a51c7fc", 
+                "name": "Portland", 
+                "place_type": "city", 
+                "url": "https://api.twitter.com/1.1/geo/id/ac88a4f17a51c7fc.json"
+            }, 
+            "possibly_sensitive": false, 
+            "retweet_count": 0, 
+            "retweeted": false, 
+            "source": "<a href=\"http://instagram.com\" rel=\"nofollow\">Instagram</a>", 
+            "text": "\ud83d\udd0aTURN ON SOUND \ud83d\udd0a\n2\ufe0f\u20e3 days til \"PURSUIT\" drops 3/31\n#EyesShut\n#PURSUITalbum @ University of Portland https://t.co/pCkUxNLXIB", 
+            "truncated": false, 
+            "user": {
+                "contributors_enabled": false, 
+                "created_at": "Sat May 01 00:22:35 +0000 2010", 
+                "default_profile": false, 
+                "default_profile_image": false, 
+                "description": "Recording Artist, Producer, Actor @JamTabMusic.  Voice/acting teacher @TheTaborStudio.  The Sims superfan.  I like to make things.  And make friends. ...Yeah!", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }, 
+                    "url": {
+                        "urls": [
+                            {
+                                "display_url": "jamesontabor.com", 
+                                "expanded_url": "http://www.jamesontabor.com", 
+                                "indices": [
+                                    0, 
+                                    23
+                                ], 
+                                "url": "https://t.co/qPGZ34YyeO"
+                            }
+                        ]
+                    }
+                }, 
+                "favourites_count": 1236, 
+                "follow_request_sent": false, 
+                "followers_count": 255, 
+                "following": false, 
+                "friends_count": 341, 
+                "geo_enabled": true, 
+                "has_extended_profile": true, 
+                "id": 138908859, 
+                "id_str": "138908859", 
+                "is_translation_enabled": false, 
+                "is_translator": false, 
+                "lang": "en", 
+                "listed_count": 17, 
+                "location": "Los Angeles, CA", 
+                "name": "Jameson Tabor", 
+                "notifications": false, 
+                "profile_background_color": "000000", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png", 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png", 
+                "profile_background_tile": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/138908859/1488714771", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/838113032664301569/kgwpVxIp_normal.jpg", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/838113032664301569/kgwpVxIp_normal.jpg", 
+                "profile_link_color": "444455", 
+                "profile_sidebar_border_color": "000000", 
+                "profile_sidebar_fill_color": "000000", 
+                "profile_text_color": "000000", 
+                "profile_use_background_image": false, 
+                "protected": false, 
+                "screen_name": "jameson_tabor", 
+                "statuses_count": 843, 
+                "time_zone": "Pacific Time (US & Canada)", 
+                "translator_type": "none", 
+                "url": "https://t.co/qPGZ34YyeO", 
+                "utc_offset": -25200, 
+                "verified": false
+            }
+        }, 
+        {
+            "contributors": null, 
+            "coordinates": null, 
+            "created_at": "Wed Mar 29 01:11:32 +0000 2017", 
+            "entities": {
+                "hashtags": [], 
+                "symbols": [], 
+                "urls": [], 
+                "user_mentions": []
+            }, 
+            "favorite_count": 2, 
+            "favorited": false, 
+            "geo": null, 
+            "id": 846892549482594305, 
+            "id_str": "846892549482594305", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_status_id": null, 
+            "in_reply_to_status_id_str": null, 
+            "in_reply_to_user_id": null, 
+            "in_reply_to_user_id_str": null, 
+            "is_quote_status": false, 
+            "lang": "en", 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }, 
+            "place": null, 
+            "retweet_count": 0, 
+            "retweeted": false, 
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+            "text": "this university of portland 2021 gc is so cute", 
+            "truncated": false, 
+            "user": {
+                "contributors_enabled": false, 
+                "created_at": "Tue Oct 18 20:59:27 +0000 2016", 
+                "default_profile": false, 
+                "default_profile_image": false, 
+                "description": "", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }, 
+                    "url": {
+                        "urls": [
+                            {
+                                "display_url": "instagram.com/k_tagomorilai", 
+                                "expanded_url": "http://instagram.com/k_tagomorilai", 
+                                "indices": [
+                                    0, 
+                                    23
+                                ], 
+                                "url": "https://t.co/QSLOy6yiV0"
+                            }
+                        ]
+                    }
+                }, 
+                "favourites_count": 295, 
+                "follow_request_sent": false, 
+                "followers_count": 65, 
+                "following": false, 
+                "friends_count": 81, 
+                "geo_enabled": true, 
+                "has_extended_profile": true, 
+                "id": 788484660946874370, 
+                "id_str": "788484660946874370", 
+                "is_translation_enabled": false, 
+                "is_translator": false, 
+                "lang": "en", 
+                "listed_count": 0, 
+                "location": "San Francisco, CA", 
+                "name": "kali", 
+                "notifications": false, 
+                "profile_background_color": "000000", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "profile_background_tile": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/788484660946874370/1488509638", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/835345195637985280/6nyKZyZm_normal.jpg", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/835345195637985280/6nyKZyZm_normal.jpg", 
+                "profile_link_color": "556688", 
+                "profile_sidebar_border_color": "000000", 
+                "profile_sidebar_fill_color": "000000", 
+                "profile_text_color": "000000", 
+                "profile_use_background_image": false, 
+                "protected": false, 
+                "screen_name": "K_tagomorilai", 
+                "statuses_count": 156, 
+                "time_zone": null, 
+                "translator_type": "none", 
+                "url": "https://t.co/QSLOy6yiV0", 
+                "utc_offset": null, 
+                "verified": false
+            }
+        }, 
+        {
+            "contributors": null, 
+            "coordinates": null, 
+            "created_at": "Tue Mar 28 22:39:55 +0000 2017", 
+            "entities": {
+                "hashtags": [], 
+                "symbols": [], 
+                "urls": [], 
+                "user_mentions": [
+                    {
+                        "id": 2980673738, 
+                        "id_str": "2980673738", 
+                        "indices": [
+                            3, 
+                            16
+                        ], 
+                        "name": "Westview HS Baseball", 
+                        "screen_name": "losgatos_WHS"
+                    }, 
+                    {
+                        "id": 383870661, 
+                        "id_str": "383870661", 
+                        "indices": [
+                            103, 
+                            117
+                        ], 
+                        "name": "Kenyon Yovan", 
+                        "screen_name": "kenyonyovan21"
+                    }, 
+                    {
+                        "id": 39064976, 
+                        "id_str": "39064976", 
+                        "indices": [
+                            118, 
+                            132
+                        ], 
+                        "name": "Parker Kelly", 
+                        "screen_name": "ParkerKelly20"
+                    }
+                ]
+            }, 
+            "favorite_count": 0, 
+            "favorited": false, 
+            "geo": null, 
+            "id": 846854391013400576, 
+            "id_str": "846854391013400576", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_status_id": null, 
+            "in_reply_to_status_id_str": null, 
+            "in_reply_to_user_id": null, 
+            "in_reply_to_user_id_str": null, 
+            "is_quote_status": false, 
+            "lang": "en", 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }, 
+            "place": null, 
+            "retweet_count": 6, 
+            "retweeted": false, 
+            "retweeted_status": {
+                "contributors": null, 
+                "coordinates": null, 
+                "created_at": "Tue Mar 28 16:37:44 +0000 2017", 
+                "entities": {
+                    "hashtags": [], 
+                    "symbols": [], 
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/i/web/status/8\u2026", 
+                            "expanded_url": "https://twitter.com/i/web/status/846763245302038528", 
+                            "indices": [
+                                116, 
+                                139
+                            ], 
+                            "url": "https://t.co/13ZGE1IClv"
+                        }
+                    ], 
+                    "user_mentions": [
+                        {
+                            "id": 383870661, 
+                            "id_str": "383870661", 
+                            "indices": [
+                                85, 
+                                99
+                            ], 
+                            "name": "Kenyon Yovan", 
+                            "screen_name": "kenyonyovan21"
+                        }, 
+                        {
+                            "id": 39064976, 
+                            "id_str": "39064976", 
+                            "indices": [
+                                100, 
+                                114
+                            ], 
+                            "name": "Parker Kelly", 
+                            "screen_name": "ParkerKelly20"
+                        }
+                    ]
+                }, 
+                "favorite_count": 26, 
+                "favorited": false, 
+                "geo": null, 
+                "id": 846763245302038528, 
+                "id_str": "846763245302038528", 
+                "in_reply_to_screen_name": null, 
+                "in_reply_to_status_id": null, 
+                "in_reply_to_status_id_str": null, 
+                "in_reply_to_user_id": null, 
+                "in_reply_to_user_id_str": null, 
+                "is_quote_status": false, 
+                "lang": "en", 
+                "metadata": {
+                    "iso_language_code": "en", 
+                    "result_type": "recent"
+                }, 
+                "place": {
+                    "attributes": {}, 
+                    "bounding_box": {
+                        "coordinates": [
+                            [
+                                [
+                                    -123.011705, 
+                                    45.488124
+                                ], 
+                                [
+                                    -122.859355, 
+                                    45.488124
+                                ], 
+                                [
+                                    -122.859355, 
+                                    45.573434
+                                ], 
+                                [
+                                    -123.011705, 
+                                    45.573434
+                                ]
+                            ]
+                        ], 
+                        "type": "Polygon"
+                    }, 
+                    "contained_within": [], 
+                    "country": "United States", 
+                    "country_code": "US", 
+                    "full_name": "Hillsboro, OR", 
+                    "id": "01bd241973160cac", 
+                    "name": "Hillsboro", 
+                    "place_type": "city", 
+                    "url": "https://api.twitter.com/1.1/geo/id/01bd241973160cac.json"
+                }, 
+                "possibly_sensitive": false, 
+                "retweet_count": 6, 
+                "retweeted": false, 
+                "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>", 
+                "text": "Former Wildcats are in town tonight!\nOregon Ducks @ University of Portland @ 6:00pm!\n@kenyonyovan21 @ParkerKelly20\u2026 https://t.co/13ZGE1IClv", 
+                "truncated": true, 
+                "user": {
+                    "contributors_enabled": false, 
+                    "created_at": "Tue Jan 13 21:43:33 +0000 2015", 
+                    "default_profile": false, 
+                    "default_profile_image": false, 
+                    "description": "Welcome to the official site of Westview Wildcats HS Varsity Baseball page!  Follow us for up-to-date schedules, scores, pictures & more! #losgatos16", 
+                    "entities": {
+                        "description": {
+                            "urls": []
+                        }
+                    }, 
+                    "favourites_count": 1133, 
+                    "follow_request_sent": false, 
+                    "followers_count": 427, 
+                    "following": false, 
+                    "friends_count": 399, 
+                    "geo_enabled": true, 
+                    "has_extended_profile": false, 
+                    "id": 2980673738, 
+                    "id_str": "2980673738", 
+                    "is_translation_enabled": false, 
+                    "is_translator": false, 
+                    "lang": "en", 
+                    "listed_count": 7, 
+                    "location": "Beaverton, OR", 
+                    "name": "Westview HS Baseball", 
+                    "notifications": false, 
+                    "profile_background_color": "131516", 
+                    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/555128280374706176/_hiEwlXg.jpeg", 
+                    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/555128280374706176/_hiEwlXg.jpeg", 
+                    "profile_background_tile": true, 
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/2980673738/1421201365", 
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/744045004075769857/oNBEMo2V_normal.jpg", 
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/744045004075769857/oNBEMo2V_normal.jpg", 
+                    "profile_link_color": "000066", 
+                    "profile_sidebar_border_color": "EEEEEE", 
+                    "profile_sidebar_fill_color": "EFEFEF", 
+                    "profile_text_color": "333333", 
+                    "profile_use_background_image": true, 
+                    "protected": false, 
+                    "screen_name": "losgatos_WHS", 
+                    "statuses_count": 3252, 
+                    "time_zone": null, 
+                    "translator_type": "none", 
+                    "url": null, 
+                    "utc_offset": null, 
+                    "verified": false
+                }
+            }, 
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>", 
+            "text": "RT @losgatos_WHS: Former Wildcats are in town tonight!\nOregon Ducks @ University of Portland @ 6:00pm!\n@kenyonyovan21 @ParkerKelly20 &amp; Conn\u2026", 
+            "truncated": false, 
+            "user": {
+                "contributors_enabled": false, 
+                "created_at": "Tue Dec 24 22:31:35 +0000 2013", 
+                "default_profile": true, 
+                "default_profile_image": false, 
+                "description": "@emmycabb", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "favourites_count": 7077, 
+                "follow_request_sent": false, 
+                "followers_count": 273, 
+                "following": false, 
+                "friends_count": 201, 
+                "geo_enabled": false, 
+                "has_extended_profile": true, 
+                "id": 2260765412, 
+                "id_str": "2260765412", 
+                "is_translation_enabled": false, 
+                "is_translator": false, 
+                "lang": "en", 
+                "listed_count": 2, 
+                "location": "", 
+                "name": "M", 
+                "notifications": false, 
+                "profile_background_color": "C0DEED", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "profile_background_tile": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2260765412/1488776710", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/800513785576333313/y8YwcLr4_normal.jpg", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/800513785576333313/y8YwcLr4_normal.jpg", 
+                "profile_link_color": "1DA1F2", 
+                "profile_sidebar_border_color": "C0DEED", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "profile_text_color": "333333", 
+                "profile_use_background_image": true, 
+                "protected": false, 
+                "screen_name": "manuelang_7", 
+                "statuses_count": 2326, 
+                "time_zone": "Arizona", 
+                "translator_type": "none", 
+                "url": null, 
+                "utc_offset": -25200, 
+                "verified": false
+            }
+        }, 
+        {
+            "contributors": null, 
+            "coordinates": null, 
+            "created_at": "Tue Mar 28 20:48:21 +0000 2017", 
+            "entities": {
+                "hashtags": [], 
+                "symbols": [], 
+                "urls": [], 
+                "user_mentions": [
+                    {
+                        "id": 2980673738, 
+                        "id_str": "2980673738", 
+                        "indices": [
+                            3, 
+                            16
+                        ], 
+                        "name": "Westview HS Baseball", 
+                        "screen_name": "losgatos_WHS"
+                    }, 
+                    {
+                        "id": 383870661, 
+                        "id_str": "383870661", 
+                        "indices": [
+                            103, 
+                            117
+                        ], 
+                        "name": "Kenyon Yovan", 
+                        "screen_name": "kenyonyovan21"
+                    }, 
+                    {
+                        "id": 39064976, 
+                        "id_str": "39064976", 
+                        "indices": [
+                            118, 
+                            132
+                        ], 
+                        "name": "Parker Kelly", 
+                        "screen_name": "ParkerKelly20"
+                    }
+                ]
+            }, 
+            "favorite_count": 0, 
+            "favorited": false, 
+            "geo": null, 
+            "id": 846826313490968576, 
+            "id_str": "846826313490968576", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_status_id": null, 
+            "in_reply_to_status_id_str": null, 
+            "in_reply_to_user_id": null, 
+            "in_reply_to_user_id_str": null, 
+            "is_quote_status": false, 
+            "lang": "en", 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }, 
+            "place": null, 
+            "retweet_count": 6, 
+            "retweeted": false, 
+            "retweeted_status": {
+                "contributors": null, 
+                "coordinates": null, 
+                "created_at": "Tue Mar 28 16:37:44 +0000 2017", 
+                "entities": {
+                    "hashtags": [], 
+                    "symbols": [], 
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/i/web/status/8\u2026", 
+                            "expanded_url": "https://twitter.com/i/web/status/846763245302038528", 
+                            "indices": [
+                                116, 
+                                139
+                            ], 
+                            "url": "https://t.co/13ZGE1IClv"
+                        }
+                    ], 
+                    "user_mentions": [
+                        {
+                            "id": 383870661, 
+                            "id_str": "383870661", 
+                            "indices": [
+                                85, 
+                                99
+                            ], 
+                            "name": "Kenyon Yovan", 
+                            "screen_name": "kenyonyovan21"
+                        }, 
+                        {
+                            "id": 39064976, 
+                            "id_str": "39064976", 
+                            "indices": [
+                                100, 
+                                114
+                            ], 
+                            "name": "Parker Kelly", 
+                            "screen_name": "ParkerKelly20"
+                        }
+                    ]
+                }, 
+                "favorite_count": 26, 
+                "favorited": false, 
+                "geo": null, 
+                "id": 846763245302038528, 
+                "id_str": "846763245302038528", 
+                "in_reply_to_screen_name": null, 
+                "in_reply_to_status_id": null, 
+                "in_reply_to_status_id_str": null, 
+                "in_reply_to_user_id": null, 
+                "in_reply_to_user_id_str": null, 
+                "is_quote_status": false, 
+                "lang": "en", 
+                "metadata": {
+                    "iso_language_code": "en", 
+                    "result_type": "recent"
+                }, 
+                "place": {
+                    "attributes": {}, 
+                    "bounding_box": {
+                        "coordinates": [
+                            [
+                                [
+                                    -123.011705, 
+                                    45.488124
+                                ], 
+                                [
+                                    -122.859355, 
+                                    45.488124
+                                ], 
+                                [
+                                    -122.859355, 
+                                    45.573434
+                                ], 
+                                [
+                                    -123.011705, 
+                                    45.573434
+                                ]
+                            ]
+                        ], 
+                        "type": "Polygon"
+                    }, 
+                    "contained_within": [], 
+                    "country": "United States", 
+                    "country_code": "US", 
+                    "full_name": "Hillsboro, OR", 
+                    "id": "01bd241973160cac", 
+                    "name": "Hillsboro", 
+                    "place_type": "city", 
+                    "url": "https://api.twitter.com/1.1/geo/id/01bd241973160cac.json"
+                }, 
+                "possibly_sensitive": false, 
+                "retweet_count": 6, 
+                "retweeted": false, 
+                "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>", 
+                "text": "Former Wildcats are in town tonight!\nOregon Ducks @ University of Portland @ 6:00pm!\n@kenyonyovan21 @ParkerKelly20\u2026 https://t.co/13ZGE1IClv", 
+                "truncated": true, 
+                "user": {
+                    "contributors_enabled": false, 
+                    "created_at": "Tue Jan 13 21:43:33 +0000 2015", 
+                    "default_profile": false, 
+                    "default_profile_image": false, 
+                    "description": "Welcome to the official site of Westview Wildcats HS Varsity Baseball page!  Follow us for up-to-date schedules, scores, pictures & more! #losgatos16", 
+                    "entities": {
+                        "description": {
+                            "urls": []
+                        }
+                    }, 
+                    "favourites_count": 1133, 
+                    "follow_request_sent": false, 
+                    "followers_count": 427, 
+                    "following": false, 
+                    "friends_count": 399, 
+                    "geo_enabled": true, 
+                    "has_extended_profile": false, 
+                    "id": 2980673738, 
+                    "id_str": "2980673738", 
+                    "is_translation_enabled": false, 
+                    "is_translator": false, 
+                    "lang": "en", 
+                    "listed_count": 7, 
+                    "location": "Beaverton, OR", 
+                    "name": "Westview HS Baseball", 
+                    "notifications": false, 
+                    "profile_background_color": "131516", 
+                    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/555128280374706176/_hiEwlXg.jpeg", 
+                    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/555128280374706176/_hiEwlXg.jpeg", 
+                    "profile_background_tile": true, 
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/2980673738/1421201365", 
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/744045004075769857/oNBEMo2V_normal.jpg", 
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/744045004075769857/oNBEMo2V_normal.jpg", 
+                    "profile_link_color": "000066", 
+                    "profile_sidebar_border_color": "EEEEEE", 
+                    "profile_sidebar_fill_color": "EFEFEF", 
+                    "profile_text_color": "333333", 
+                    "profile_use_background_image": true, 
+                    "protected": false, 
+                    "screen_name": "losgatos_WHS", 
+                    "statuses_count": 3252, 
+                    "time_zone": null, 
+                    "translator_type": "none", 
+                    "url": null, 
+                    "utc_offset": null, 
+                    "verified": false
+                }
+            }, 
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+            "text": "RT @losgatos_WHS: Former Wildcats are in town tonight!\nOregon Ducks @ University of Portland @ 6:00pm!\n@kenyonyovan21 @ParkerKelly20 &amp; Conn\u2026", 
+            "truncated": false, 
+            "user": {
+                "contributors_enabled": false, 
+                "created_at": "Sat May 02 15:53:09 +0000 2009", 
+                "default_profile": true, 
+                "default_profile_image": false, 
+                "description": "", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "favourites_count": 1155, 
+                "follow_request_sent": false, 
+                "followers_count": 26, 
+                "following": false, 
+                "friends_count": 56, 
+                "geo_enabled": true, 
+                "has_extended_profile": false, 
+                "id": 37221440, 
+                "id_str": "37221440", 
+                "is_translation_enabled": false, 
+                "is_translator": false, 
+                "lang": "en", 
+                "listed_count": 0, 
+                "location": "", 
+                "name": "Jennifer Hooson", 
+                "notifications": false, 
+                "profile_background_color": "C0DEED", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "profile_background_tile": false, 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/725155115607318528/V2aBKc5-_normal.jpg", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/725155115607318528/V2aBKc5-_normal.jpg", 
+                "profile_link_color": "1DA1F2", 
+                "profile_sidebar_border_color": "C0DEED", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "profile_text_color": "333333", 
+                "profile_use_background_image": true, 
+                "protected": false, 
+                "screen_name": "jenniferhooson", 
+                "statuses_count": 189, 
+                "time_zone": null, 
+                "translator_type": "none", 
+                "url": null, 
+                "utc_offset": null, 
+                "verified": false
+            }
+        }, 
+        {
+            "contributors": null, 
+            "coordinates": null, 
+            "created_at": "Tue Mar 28 19:18:48 +0000 2017", 
+            "entities": {
+                "hashtags": [], 
+                "symbols": [], 
+                "urls": [], 
+                "user_mentions": [
+                    {
+                        "id": 2980673738, 
+                        "id_str": "2980673738", 
+                        "indices": [
+                            3, 
+                            16
+                        ], 
+                        "name": "Westview HS Baseball", 
+                        "screen_name": "losgatos_WHS"
+                    }, 
+                    {
+                        "id": 383870661, 
+                        "id_str": "383870661", 
+                        "indices": [
+                            103, 
+                            117
+                        ], 
+                        "name": "Kenyon Yovan", 
+                        "screen_name": "kenyonyovan21"
+                    }, 
+                    {
+                        "id": 39064976, 
+                        "id_str": "39064976", 
+                        "indices": [
+                            118, 
+                            132
+                        ], 
+                        "name": "Parker Kelly", 
+                        "screen_name": "ParkerKelly20"
+                    }
+                ]
+            }, 
+            "favorite_count": 0, 
+            "favorited": false, 
+            "geo": null, 
+            "id": 846803780196716544, 
+            "id_str": "846803780196716544", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_status_id": null, 
+            "in_reply_to_status_id_str": null, 
+            "in_reply_to_user_id": null, 
+            "in_reply_to_user_id_str": null, 
+            "is_quote_status": false, 
+            "lang": "en", 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }, 
+            "place": null, 
+            "retweet_count": 6, 
+            "retweeted": false, 
+            "retweeted_status": {
+                "contributors": null, 
+                "coordinates": null, 
+                "created_at": "Tue Mar 28 16:37:44 +0000 2017", 
+                "entities": {
+                    "hashtags": [], 
+                    "symbols": [], 
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/i/web/status/8\u2026", 
+                            "expanded_url": "https://twitter.com/i/web/status/846763245302038528", 
+                            "indices": [
+                                116, 
+                                139
+                            ], 
+                            "url": "https://t.co/13ZGE1IClv"
+                        }
+                    ], 
+                    "user_mentions": [
+                        {
+                            "id": 383870661, 
+                            "id_str": "383870661", 
+                            "indices": [
+                                85, 
+                                99
+                            ], 
+                            "name": "Kenyon Yovan", 
+                            "screen_name": "kenyonyovan21"
+                        }, 
+                        {
+                            "id": 39064976, 
+                            "id_str": "39064976", 
+                            "indices": [
+                                100, 
+                                114
+                            ], 
+                            "name": "Parker Kelly", 
+                            "screen_name": "ParkerKelly20"
+                        }
+                    ]
+                }, 
+                "favorite_count": 26, 
+                "favorited": false, 
+                "geo": null, 
+                "id": 846763245302038528, 
+                "id_str": "846763245302038528", 
+                "in_reply_to_screen_name": null, 
+                "in_reply_to_status_id": null, 
+                "in_reply_to_status_id_str": null, 
+                "in_reply_to_user_id": null, 
+                "in_reply_to_user_id_str": null, 
+                "is_quote_status": false, 
+                "lang": "en", 
+                "metadata": {
+                    "iso_language_code": "en", 
+                    "result_type": "recent"
+                }, 
+                "place": {
+                    "attributes": {}, 
+                    "bounding_box": {
+                        "coordinates": [
+                            [
+                                [
+                                    -123.011705, 
+                                    45.488124
+                                ], 
+                                [
+                                    -122.859355, 
+                                    45.488124
+                                ], 
+                                [
+                                    -122.859355, 
+                                    45.573434
+                                ], 
+                                [
+                                    -123.011705, 
+                                    45.573434
+                                ]
+                            ]
+                        ], 
+                        "type": "Polygon"
+                    }, 
+                    "contained_within": [], 
+                    "country": "United States", 
+                    "country_code": "US", 
+                    "full_name": "Hillsboro, OR", 
+                    "id": "01bd241973160cac", 
+                    "name": "Hillsboro", 
+                    "place_type": "city", 
+                    "url": "https://api.twitter.com/1.1/geo/id/01bd241973160cac.json"
+                }, 
+                "possibly_sensitive": false, 
+                "retweet_count": 6, 
+                "retweeted": false, 
+                "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>", 
+                "text": "Former Wildcats are in town tonight!\nOregon Ducks @ University of Portland @ 6:00pm!\n@kenyonyovan21 @ParkerKelly20\u2026 https://t.co/13ZGE1IClv", 
+                "truncated": true, 
+                "user": {
+                    "contributors_enabled": false, 
+                    "created_at": "Tue Jan 13 21:43:33 +0000 2015", 
+                    "default_profile": false, 
+                    "default_profile_image": false, 
+                    "description": "Welcome to the official site of Westview Wildcats HS Varsity Baseball page!  Follow us for up-to-date schedules, scores, pictures & more! #losgatos16", 
+                    "entities": {
+                        "description": {
+                            "urls": []
+                        }
+                    }, 
+                    "favourites_count": 1133, 
+                    "follow_request_sent": false, 
+                    "followers_count": 427, 
+                    "following": false, 
+                    "friends_count": 399, 
+                    "geo_enabled": true, 
+                    "has_extended_profile": false, 
+                    "id": 2980673738, 
+                    "id_str": "2980673738", 
+                    "is_translation_enabled": false, 
+                    "is_translator": false, 
+                    "lang": "en", 
+                    "listed_count": 7, 
+                    "location": "Beaverton, OR", 
+                    "name": "Westview HS Baseball", 
+                    "notifications": false, 
+                    "profile_background_color": "131516", 
+                    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/555128280374706176/_hiEwlXg.jpeg", 
+                    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/555128280374706176/_hiEwlXg.jpeg", 
+                    "profile_background_tile": true, 
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/2980673738/1421201365", 
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/744045004075769857/oNBEMo2V_normal.jpg", 
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/744045004075769857/oNBEMo2V_normal.jpg", 
+                    "profile_link_color": "000066", 
+                    "profile_sidebar_border_color": "EEEEEE", 
+                    "profile_sidebar_fill_color": "EFEFEF", 
+                    "profile_text_color": "333333", 
+                    "profile_use_background_image": true, 
+                    "protected": false, 
+                    "screen_name": "losgatos_WHS", 
+                    "statuses_count": 3252, 
+                    "time_zone": null, 
+                    "translator_type": "none", 
+                    "url": null, 
+                    "utc_offset": null, 
+                    "verified": false
+                }
+            }, 
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+            "text": "RT @losgatos_WHS: Former Wildcats are in town tonight!\nOregon Ducks @ University of Portland @ 6:00pm!\n@kenyonyovan21 @ParkerKelly20 &amp; Conn\u2026", 
+            "truncated": false, 
+            "user": {
+                "contributors_enabled": false, 
+                "created_at": "Tue Feb 11 16:18:50 +0000 2014", 
+                "default_profile": true, 
+                "default_profile_image": false, 
+                "description": "Senior @ Westview | YL | F\u00fatbol", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "favourites_count": 9286, 
+                "follow_request_sent": false, 
+                "followers_count": 575, 
+                "following": false, 
+                "friends_count": 572, 
+                "geo_enabled": false, 
+                "has_extended_profile": true, 
+                "id": 2338626824, 
+                "id_str": "2338626824", 
+                "is_translation_enabled": false, 
+                "is_translator": false, 
+                "lang": "en", 
+                "listed_count": 2, 
+                "location": "", 
+                "name": "Omar Gonzales", 
+                "notifications": false, 
+                "profile_background_color": "C0DEED", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "profile_background_tile": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2338626824/1442878214", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/843385997802979329/qXlz2i55_normal.jpg", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/843385997802979329/qXlz2i55_normal.jpg", 
+                "profile_link_color": "1DA1F2", 
+                "profile_sidebar_border_color": "C0DEED", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "profile_text_color": "333333", 
+                "profile_use_background_image": true, 
+                "protected": false, 
+                "screen_name": "OmarGonzales09", 
+                "statuses_count": 895, 
+                "time_zone": null, 
+                "translator_type": "none", 
+                "url": null, 
+                "utc_offset": null, 
+                "verified": false
+            }
+        }, 
+        {
+            "contributors": null, 
+            "coordinates": null, 
+            "created_at": "Tue Mar 28 17:43:15 +0000 2017", 
+            "entities": {
+                "hashtags": [], 
+                "symbols": [], 
+                "urls": [], 
+                "user_mentions": [
+                    {
+                        "id": 2980673738, 
+                        "id_str": "2980673738", 
+                        "indices": [
+                            3, 
+                            16
+                        ], 
+                        "name": "Westview HS Baseball", 
+                        "screen_name": "losgatos_WHS"
+                    }, 
+                    {
+                        "id": 383870661, 
+                        "id_str": "383870661", 
+                        "indices": [
+                            103, 
+                            117
+                        ], 
+                        "name": "Kenyon Yovan", 
+                        "screen_name": "kenyonyovan21"
+                    }, 
+                    {
+                        "id": 39064976, 
+                        "id_str": "39064976", 
+                        "indices": [
+                            118, 
+                            132
+                        ], 
+                        "name": "Parker Kelly", 
+                        "screen_name": "ParkerKelly20"
+                    }
+                ]
+            }, 
+            "favorite_count": 0, 
+            "favorited": false, 
+            "geo": null, 
+            "id": 846779733438169089, 
+            "id_str": "846779733438169089", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_status_id": null, 
+            "in_reply_to_status_id_str": null, 
+            "in_reply_to_user_id": null, 
+            "in_reply_to_user_id_str": null, 
+            "is_quote_status": false, 
+            "lang": "en", 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }, 
+            "place": null, 
+            "retweet_count": 6, 
+            "retweeted": false, 
+            "retweeted_status": {
+                "contributors": null, 
+                "coordinates": null, 
+                "created_at": "Tue Mar 28 16:37:44 +0000 2017", 
+                "entities": {
+                    "hashtags": [], 
+                    "symbols": [], 
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/i/web/status/8\u2026", 
+                            "expanded_url": "https://twitter.com/i/web/status/846763245302038528", 
+                            "indices": [
+                                116, 
+                                139
+                            ], 
+                            "url": "https://t.co/13ZGE1IClv"
+                        }
+                    ], 
+                    "user_mentions": [
+                        {
+                            "id": 383870661, 
+                            "id_str": "383870661", 
+                            "indices": [
+                                85, 
+                                99
+                            ], 
+                            "name": "Kenyon Yovan", 
+                            "screen_name": "kenyonyovan21"
+                        }, 
+                        {
+                            "id": 39064976, 
+                            "id_str": "39064976", 
+                            "indices": [
+                                100, 
+                                114
+                            ], 
+                            "name": "Parker Kelly", 
+                            "screen_name": "ParkerKelly20"
+                        }
+                    ]
+                }, 
+                "favorite_count": 26, 
+                "favorited": false, 
+                "geo": null, 
+                "id": 846763245302038528, 
+                "id_str": "846763245302038528", 
+                "in_reply_to_screen_name": null, 
+                "in_reply_to_status_id": null, 
+                "in_reply_to_status_id_str": null, 
+                "in_reply_to_user_id": null, 
+                "in_reply_to_user_id_str": null, 
+                "is_quote_status": false, 
+                "lang": "en", 
+                "metadata": {
+                    "iso_language_code": "en", 
+                    "result_type": "recent"
+                }, 
+                "place": {
+                    "attributes": {}, 
+                    "bounding_box": {
+                        "coordinates": [
+                            [
+                                [
+                                    -123.011705, 
+                                    45.488124
+                                ], 
+                                [
+                                    -122.859355, 
+                                    45.488124
+                                ], 
+                                [
+                                    -122.859355, 
+                                    45.573434
+                                ], 
+                                [
+                                    -123.011705, 
+                                    45.573434
+                                ]
+                            ]
+                        ], 
+                        "type": "Polygon"
+                    }, 
+                    "contained_within": [], 
+                    "country": "United States", 
+                    "country_code": "US", 
+                    "full_name": "Hillsboro, OR", 
+                    "id": "01bd241973160cac", 
+                    "name": "Hillsboro", 
+                    "place_type": "city", 
+                    "url": "https://api.twitter.com/1.1/geo/id/01bd241973160cac.json"
+                }, 
+                "possibly_sensitive": false, 
+                "retweet_count": 6, 
+                "retweeted": false, 
+                "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>", 
+                "text": "Former Wildcats are in town tonight!\nOregon Ducks @ University of Portland @ 6:00pm!\n@kenyonyovan21 @ParkerKelly20\u2026 https://t.co/13ZGE1IClv", 
+                "truncated": true, 
+                "user": {
+                    "contributors_enabled": false, 
+                    "created_at": "Tue Jan 13 21:43:33 +0000 2015", 
+                    "default_profile": false, 
+                    "default_profile_image": false, 
+                    "description": "Welcome to the official site of Westview Wildcats HS Varsity Baseball page!  Follow us for up-to-date schedules, scores, pictures & more! #losgatos16", 
+                    "entities": {
+                        "description": {
+                            "urls": []
+                        }
+                    }, 
+                    "favourites_count": 1133, 
+                    "follow_request_sent": false, 
+                    "followers_count": 427, 
+                    "following": false, 
+                    "friends_count": 399, 
+                    "geo_enabled": true, 
+                    "has_extended_profile": false, 
+                    "id": 2980673738, 
+                    "id_str": "2980673738", 
+                    "is_translation_enabled": false, 
+                    "is_translator": false, 
+                    "lang": "en", 
+                    "listed_count": 7, 
+                    "location": "Beaverton, OR", 
+                    "name": "Westview HS Baseball", 
+                    "notifications": false, 
+                    "profile_background_color": "131516", 
+                    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/555128280374706176/_hiEwlXg.jpeg", 
+                    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/555128280374706176/_hiEwlXg.jpeg", 
+                    "profile_background_tile": true, 
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/2980673738/1421201365", 
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/744045004075769857/oNBEMo2V_normal.jpg", 
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/744045004075769857/oNBEMo2V_normal.jpg", 
+                    "profile_link_color": "000066", 
+                    "profile_sidebar_border_color": "EEEEEE", 
+                    "profile_sidebar_fill_color": "EFEFEF", 
+                    "profile_text_color": "333333", 
+                    "profile_use_background_image": true, 
+                    "protected": false, 
+                    "screen_name": "losgatos_WHS", 
+                    "statuses_count": 3252, 
+                    "time_zone": null, 
+                    "translator_type": "none", 
+                    "url": null, 
+                    "utc_offset": null, 
+                    "verified": false
+                }
+            }, 
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+            "text": "RT @losgatos_WHS: Former Wildcats are in town tonight!\nOregon Ducks @ University of Portland @ 6:00pm!\n@kenyonyovan21 @ParkerKelly20 &amp; Conn\u2026", 
+            "truncated": false, 
+            "user": {
+                "contributors_enabled": false, 
+                "created_at": "Sun Oct 02 17:24:23 +0000 2011", 
+                "default_profile": true, 
+                "default_profile_image": false, 
+                "description": "The View '16 | U of O '20\u26be\ufe0f", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "favourites_count": 5420, 
+                "follow_request_sent": false, 
+                "followers_count": 1031, 
+                "following": false, 
+                "friends_count": 833, 
+                "geo_enabled": true, 
+                "has_extended_profile": false, 
+                "id": 383870661, 
+                "id_str": "383870661", 
+                "is_translation_enabled": false, 
+                "is_translator": false, 
+                "lang": "en", 
+                "listed_count": 16, 
+                "location": "Beaverton, OR", 
+                "name": "Kenyon Yovan", 
+                "notifications": false, 
+                "profile_background_color": "C0DEED", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "profile_background_tile": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/383870661/1468267288", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/836984632478326784/3RDKzMwq_normal.jpg", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/836984632478326784/3RDKzMwq_normal.jpg", 
+                "profile_link_color": "1DA1F2", 
+                "profile_sidebar_border_color": "C0DEED", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "profile_text_color": "333333", 
+                "profile_use_background_image": true, 
+                "protected": false, 
+                "screen_name": "kenyonyovan21", 
+                "statuses_count": 3574, 
+                "time_zone": "Pacific Time (US & Canada)", 
+                "translator_type": "none", 
+                "url": null, 
+                "utc_offset": -25200, 
+                "verified": false
+            }
+        }, 
+        {
+            "contributors": null, 
+            "coordinates": null, 
+            "created_at": "Tue Mar 28 16:47:47 +0000 2017", 
+            "entities": {
+                "hashtags": [], 
+                "symbols": [], 
+                "urls": [], 
+                "user_mentions": [
+                    {
+                        "id": 2980673738, 
+                        "id_str": "2980673738", 
+                        "indices": [
+                            3, 
+                            16
+                        ], 
+                        "name": "Westview HS Baseball", 
+                        "screen_name": "losgatos_WHS"
+                    }, 
+                    {
+                        "id": 383870661, 
+                        "id_str": "383870661", 
+                        "indices": [
+                            103, 
+                            117
+                        ], 
+                        "name": "Kenyon Yovan", 
+                        "screen_name": "kenyonyovan21"
+                    }, 
+                    {
+                        "id": 39064976, 
+                        "id_str": "39064976", 
+                        "indices": [
+                            118, 
+                            132
+                        ], 
+                        "name": "Parker Kelly", 
+                        "screen_name": "ParkerKelly20"
+                    }
+                ]
+            }, 
+            "favorite_count": 0, 
+            "favorited": false, 
+            "geo": null, 
+            "id": 846765775205523456, 
+            "id_str": "846765775205523456", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_status_id": null, 
+            "in_reply_to_status_id_str": null, 
+            "in_reply_to_user_id": null, 
+            "in_reply_to_user_id_str": null, 
+            "is_quote_status": false, 
+            "lang": "en", 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }, 
+            "place": null, 
+            "retweet_count": 6, 
+            "retweeted": false, 
+            "retweeted_status": {
+                "contributors": null, 
+                "coordinates": null, 
+                "created_at": "Tue Mar 28 16:37:44 +0000 2017", 
+                "entities": {
+                    "hashtags": [], 
+                    "symbols": [], 
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/i/web/status/8\u2026", 
+                            "expanded_url": "https://twitter.com/i/web/status/846763245302038528", 
+                            "indices": [
+                                116, 
+                                139
+                            ], 
+                            "url": "https://t.co/13ZGE1IClv"
+                        }
+                    ], 
+                    "user_mentions": [
+                        {
+                            "id": 383870661, 
+                            "id_str": "383870661", 
+                            "indices": [
+                                85, 
+                                99
+                            ], 
+                            "name": "Kenyon Yovan", 
+                            "screen_name": "kenyonyovan21"
+                        }, 
+                        {
+                            "id": 39064976, 
+                            "id_str": "39064976", 
+                            "indices": [
+                                100, 
+                                114
+                            ], 
+                            "name": "Parker Kelly", 
+                            "screen_name": "ParkerKelly20"
+                        }
+                    ]
+                }, 
+                "favorite_count": 26, 
+                "favorited": false, 
+                "geo": null, 
+                "id": 846763245302038528, 
+                "id_str": "846763245302038528", 
+                "in_reply_to_screen_name": null, 
+                "in_reply_to_status_id": null, 
+                "in_reply_to_status_id_str": null, 
+                "in_reply_to_user_id": null, 
+                "in_reply_to_user_id_str": null, 
+                "is_quote_status": false, 
+                "lang": "en", 
+                "metadata": {
+                    "iso_language_code": "en", 
+                    "result_type": "recent"
+                }, 
+                "place": {
+                    "attributes": {}, 
+                    "bounding_box": {
+                        "coordinates": [
+                            [
+                                [
+                                    -123.011705, 
+                                    45.488124
+                                ], 
+                                [
+                                    -122.859355, 
+                                    45.488124
+                                ], 
+                                [
+                                    -122.859355, 
+                                    45.573434
+                                ], 
+                                [
+                                    -123.011705, 
+                                    45.573434
+                                ]
+                            ]
+                        ], 
+                        "type": "Polygon"
+                    }, 
+                    "contained_within": [], 
+                    "country": "United States", 
+                    "country_code": "US", 
+                    "full_name": "Hillsboro, OR", 
+                    "id": "01bd241973160cac", 
+                    "name": "Hillsboro", 
+                    "place_type": "city", 
+                    "url": "https://api.twitter.com/1.1/geo/id/01bd241973160cac.json"
+                }, 
+                "possibly_sensitive": false, 
+                "retweet_count": 6, 
+                "retweeted": false, 
+                "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>", 
+                "text": "Former Wildcats are in town tonight!\nOregon Ducks @ University of Portland @ 6:00pm!\n@kenyonyovan21 @ParkerKelly20\u2026 https://t.co/13ZGE1IClv", 
+                "truncated": true, 
+                "user": {
+                    "contributors_enabled": false, 
+                    "created_at": "Tue Jan 13 21:43:33 +0000 2015", 
+                    "default_profile": false, 
+                    "default_profile_image": false, 
+                    "description": "Welcome to the official site of Westview Wildcats HS Varsity Baseball page!  Follow us for up-to-date schedules, scores, pictures & more! #losgatos16", 
+                    "entities": {
+                        "description": {
+                            "urls": []
+                        }
+                    }, 
+                    "favourites_count": 1133, 
+                    "follow_request_sent": false, 
+                    "followers_count": 427, 
+                    "following": false, 
+                    "friends_count": 399, 
+                    "geo_enabled": true, 
+                    "has_extended_profile": false, 
+                    "id": 2980673738, 
+                    "id_str": "2980673738", 
+                    "is_translation_enabled": false, 
+                    "is_translator": false, 
+                    "lang": "en", 
+                    "listed_count": 7, 
+                    "location": "Beaverton, OR", 
+                    "name": "Westview HS Baseball", 
+                    "notifications": false, 
+                    "profile_background_color": "131516", 
+                    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/555128280374706176/_hiEwlXg.jpeg", 
+                    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/555128280374706176/_hiEwlXg.jpeg", 
+                    "profile_background_tile": true, 
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/2980673738/1421201365", 
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/744045004075769857/oNBEMo2V_normal.jpg", 
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/744045004075769857/oNBEMo2V_normal.jpg", 
+                    "profile_link_color": "000066", 
+                    "profile_sidebar_border_color": "EEEEEE", 
+                    "profile_sidebar_fill_color": "EFEFEF", 
+                    "profile_text_color": "333333", 
+                    "profile_use_background_image": true, 
+                    "protected": false, 
+                    "screen_name": "losgatos_WHS", 
+                    "statuses_count": 3252, 
+                    "time_zone": null, 
+                    "translator_type": "none", 
+                    "url": null, 
+                    "utc_offset": null, 
+                    "verified": false
+                }
+            }, 
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+            "text": "RT @losgatos_WHS: Former Wildcats are in town tonight!\nOregon Ducks @ University of Portland @ 6:00pm!\n@kenyonyovan21 @ParkerKelly20 &amp; Conn\u2026", 
+            "truncated": false, 
+            "user": {
+                "contributors_enabled": false, 
+                "created_at": "Tue May 07 17:19:04 +0000 2013", 
+                "default_profile": true, 
+                "default_profile_image": false, 
+                "description": "Matt Singledecker is the sports editor for the Beaverton Valley Times newspaper. Opinions are my own.", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }, 
+                    "url": {
+                        "urls": [
+                            {
+                                "display_url": "beavertonvalleytimes.com", 
+                                "expanded_url": "http://beavertonvalleytimes.com", 
+                                "indices": [
+                                    0, 
+                                    22
+                                ], 
+                                "url": "http://t.co/m5UET2Bba7"
+                            }
+                        ]
+                    }
+                }, 
+                "favourites_count": 2735, 
+                "follow_request_sent": false, 
+                "followers_count": 1224, 
+                "following": false, 
+                "friends_count": 864, 
+                "geo_enabled": false, 
+                "has_extended_profile": false, 
+                "id": 1410761744, 
+                "id_str": "1410761744", 
+                "is_translation_enabled": false, 
+                "is_translator": false, 
+                "lang": "en", 
+                "listed_count": 11, 
+                "location": "Beaverton", 
+                "name": "Matt Singledecker", 
+                "notifications": false, 
+                "profile_background_color": "C0DEED", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "profile_background_tile": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1410761744/1401974023", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/3628636037/f6f5143e08b4bb1a3a867cecbf21046d_normal.png", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/3628636037/f6f5143e08b4bb1a3a867cecbf21046d_normal.png", 
+                "profile_link_color": "1DA1F2", 
+                "profile_sidebar_border_color": "C0DEED", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "profile_text_color": "333333", 
+                "profile_use_background_image": true, 
+                "protected": false, 
+                "screen_name": "BeavertonSports", 
+                "statuses_count": 5598, 
+                "time_zone": "Pacific Time (US & Canada)", 
+                "translator_type": "none", 
+                "url": "http://t.co/m5UET2Bba7", 
+                "utc_offset": -25200, 
+                "verified": false
+            }
+        }, 
+        {
+            "contributors": null, 
+            "coordinates": null, 
+            "created_at": "Tue Mar 28 16:46:57 +0000 2017", 
+            "entities": {
+                "hashtags": [], 
+                "symbols": [], 
+                "urls": [], 
+                "user_mentions": [
+                    {
+                        "id": 2980673738, 
+                        "id_str": "2980673738", 
+                        "indices": [
+                            3, 
+                            16
+                        ], 
+                        "name": "Westview HS Baseball", 
+                        "screen_name": "losgatos_WHS"
+                    }, 
+                    {
+                        "id": 383870661, 
+                        "id_str": "383870661", 
+                        "indices": [
+                            103, 
+                            117
+                        ], 
+                        "name": "Kenyon Yovan", 
+                        "screen_name": "kenyonyovan21"
+                    }, 
+                    {
+                        "id": 39064976, 
+                        "id_str": "39064976", 
+                        "indices": [
+                            118, 
+                            132
+                        ], 
+                        "name": "Parker Kelly", 
+                        "screen_name": "ParkerKelly20"
+                    }
+                ]
+            }, 
+            "favorite_count": 0, 
+            "favorited": false, 
+            "geo": null, 
+            "id": 846765564630523904, 
+            "id_str": "846765564630523904", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_status_id": null, 
+            "in_reply_to_status_id_str": null, 
+            "in_reply_to_user_id": null, 
+            "in_reply_to_user_id_str": null, 
+            "is_quote_status": false, 
+            "lang": "en", 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }, 
+            "place": null, 
+            "retweet_count": 6, 
+            "retweeted": false, 
+            "retweeted_status": {
+                "contributors": null, 
+                "coordinates": null, 
+                "created_at": "Tue Mar 28 16:37:44 +0000 2017", 
+                "entities": {
+                    "hashtags": [], 
+                    "symbols": [], 
+                    "urls": [
+                        {
+                            "display_url": "twitter.com/i/web/status/8\u2026", 
+                            "expanded_url": "https://twitter.com/i/web/status/846763245302038528", 
+                            "indices": [
+                                116, 
+                                139
+                            ], 
+                            "url": "https://t.co/13ZGE1IClv"
+                        }
+                    ], 
+                    "user_mentions": [
+                        {
+                            "id": 383870661, 
+                            "id_str": "383870661", 
+                            "indices": [
+                                85, 
+                                99
+                            ], 
+                            "name": "Kenyon Yovan", 
+                            "screen_name": "kenyonyovan21"
+                        }, 
+                        {
+                            "id": 39064976, 
+                            "id_str": "39064976", 
+                            "indices": [
+                                100, 
+                                114
+                            ], 
+                            "name": "Parker Kelly", 
+                            "screen_name": "ParkerKelly20"
+                        }
+                    ]
+                }, 
+                "favorite_count": 26, 
+                "favorited": false, 
+                "geo": null, 
+                "id": 846763245302038528, 
+                "id_str": "846763245302038528", 
+                "in_reply_to_screen_name": null, 
+                "in_reply_to_status_id": null, 
+                "in_reply_to_status_id_str": null, 
+                "in_reply_to_user_id": null, 
+                "in_reply_to_user_id_str": null, 
+                "is_quote_status": false, 
+                "lang": "en", 
+                "metadata": {
+                    "iso_language_code": "en", 
+                    "result_type": "recent"
+                }, 
+                "place": {
+                    "attributes": {}, 
+                    "bounding_box": {
+                        "coordinates": [
+                            [
+                                [
+                                    -123.011705, 
+                                    45.488124
+                                ], 
+                                [
+                                    -122.859355, 
+                                    45.488124
+                                ], 
+                                [
+                                    -122.859355, 
+                                    45.573434
+                                ], 
+                                [
+                                    -123.011705, 
+                                    45.573434
+                                ]
+                            ]
+                        ], 
+                        "type": "Polygon"
+                    }, 
+                    "contained_within": [], 
+                    "country": "United States", 
+                    "country_code": "US", 
+                    "full_name": "Hillsboro, OR", 
+                    "id": "01bd241973160cac", 
+                    "name": "Hillsboro", 
+                    "place_type": "city", 
+                    "url": "https://api.twitter.com/1.1/geo/id/01bd241973160cac.json"
+                }, 
+                "possibly_sensitive": false, 
+                "retweet_count": 6, 
+                "retweeted": false, 
+                "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>", 
+                "text": "Former Wildcats are in town tonight!\nOregon Ducks @ University of Portland @ 6:00pm!\n@kenyonyovan21 @ParkerKelly20\u2026 https://t.co/13ZGE1IClv", 
+                "truncated": true, 
+                "user": {
+                    "contributors_enabled": false, 
+                    "created_at": "Tue Jan 13 21:43:33 +0000 2015", 
+                    "default_profile": false, 
+                    "default_profile_image": false, 
+                    "description": "Welcome to the official site of Westview Wildcats HS Varsity Baseball page!  Follow us for up-to-date schedules, scores, pictures & more! #losgatos16", 
+                    "entities": {
+                        "description": {
+                            "urls": []
+                        }
+                    }, 
+                    "favourites_count": 1133, 
+                    "follow_request_sent": false, 
+                    "followers_count": 427, 
+                    "following": false, 
+                    "friends_count": 399, 
+                    "geo_enabled": true, 
+                    "has_extended_profile": false, 
+                    "id": 2980673738, 
+                    "id_str": "2980673738", 
+                    "is_translation_enabled": false, 
+                    "is_translator": false, 
+                    "lang": "en", 
+                    "listed_count": 7, 
+                    "location": "Beaverton, OR", 
+                    "name": "Westview HS Baseball", 
+                    "notifications": false, 
+                    "profile_background_color": "131516", 
+                    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/555128280374706176/_hiEwlXg.jpeg", 
+                    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/555128280374706176/_hiEwlXg.jpeg", 
+                    "profile_background_tile": true, 
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/2980673738/1421201365", 
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/744045004075769857/oNBEMo2V_normal.jpg", 
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/744045004075769857/oNBEMo2V_normal.jpg", 
+                    "profile_link_color": "000066", 
+                    "profile_sidebar_border_color": "EEEEEE", 
+                    "profile_sidebar_fill_color": "EFEFEF", 
+                    "profile_text_color": "333333", 
+                    "profile_use_background_image": true, 
+                    "protected": false, 
+                    "screen_name": "losgatos_WHS", 
+                    "statuses_count": 3252, 
+                    "time_zone": null, 
+                    "translator_type": "none", 
+                    "url": null, 
+                    "utc_offset": null, 
+                    "verified": false
+                }
+            }, 
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+            "text": "RT @losgatos_WHS: Former Wildcats are in town tonight!\nOregon Ducks @ University of Portland @ 6:00pm!\n@kenyonyovan21 @ParkerKelly20 &amp; Conn\u2026", 
+            "truncated": false, 
+            "user": {
+                "contributors_enabled": false, 
+                "created_at": "Sat Jul 26 15:34:09 +0000 2014", 
+                "default_profile": true, 
+                "default_profile_image": false, 
+                "description": "", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "favourites_count": 13, 
+                "follow_request_sent": false, 
+                "followers_count": 494, 
+                "following": false, 
+                "friends_count": 46, 
+                "geo_enabled": true, 
+                "has_extended_profile": false, 
+                "id": 2682615048, 
+                "id_str": "2682615048", 
+                "is_translation_enabled": false, 
+                "is_translator": false, 
+                "lang": "en", 
+                "listed_count": 4, 
+                "location": "", 
+                "name": "Westview High School", 
+                "notifications": false, 
+                "profile_background_color": "C0DEED", 
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+                "profile_background_tile": false, 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/504771581558521856/-mYphmJj_normal.jpeg", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/504771581558521856/-mYphmJj_normal.jpeg", 
+                "profile_link_color": "1DA1F2", 
+                "profile_sidebar_border_color": "C0DEED", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "profile_text_color": "333333", 
+                "profile_use_background_image": true, 
+                "protected": false, 
+                "screen_name": "185wildcatgames", 
+                "statuses_count": 1414, 
+                "time_zone": null, 
+                "translator_type": "none", 
+                "url": null, 
+                "utc_offset": null, 
+                "verified": false
+            }
+        }, 
+        {
+            "contributors": null, 
+            "coordinates": null, 
+            "created_at": "Tue Mar 28 16:37:44 +0000 2017", 
+            "entities": {
+                "hashtags": [], 
+                "symbols": [], 
+                "urls": [
+                    {
+                        "display_url": "twitter.com/i/web/status/8\u2026", 
+                        "expanded_url": "https://twitter.com/i/web/status/846763245302038528", 
+                        "indices": [
+                            116, 
+                            139
+                        ], 
+                        "url": "https://t.co/13ZGE1IClv"
+                    }
+                ], 
+                "user_mentions": [
+                    {
+                        "id": 383870661, 
+                        "id_str": "383870661", 
+                        "indices": [
+                            85, 
+                            99
+                        ], 
+                        "name": "Kenyon Yovan", 
+                        "screen_name": "kenyonyovan21"
+                    }, 
+                    {
+                        "id": 39064976, 
+                        "id_str": "39064976", 
+                        "indices": [
+                            100, 
+                            114
+                        ], 
+                        "name": "Parker Kelly", 
+                        "screen_name": "ParkerKelly20"
+                    }
+                ]
+            }, 
+            "favorite_count": 26, 
+            "favorited": false, 
+            "geo": null, 
+            "id": 846763245302038528, 
+            "id_str": "846763245302038528", 
+            "in_reply_to_screen_name": null, 
+            "in_reply_to_status_id": null, 
+            "in_reply_to_status_id_str": null, 
+            "in_reply_to_user_id": null, 
+            "in_reply_to_user_id_str": null, 
+            "is_quote_status": false, 
+            "lang": "en", 
+            "metadata": {
+                "iso_language_code": "en", 
+                "result_type": "recent"
+            }, 
+            "place": {
+                "attributes": {}, 
+                "bounding_box": {
+                    "coordinates": [
+                        [
+                            [
+                                -123.011705, 
+                                45.488124
+                            ], 
+                            [
+                                -122.859355, 
+                                45.488124
+                            ], 
+                            [
+                                -122.859355, 
+                                45.573434
+                            ], 
+                            [
+                                -123.011705, 
+                                45.573434
+                            ]
+                        ]
+                    ], 
+                    "type": "Polygon"
+                }, 
+                "contained_within": [], 
+                "country": "United States", 
+                "country_code": "US", 
+                "full_name": "Hillsboro, OR", 
+                "id": "01bd241973160cac", 
+                "name": "Hillsboro", 
+                "place_type": "city", 
+                "url": "https://api.twitter.com/1.1/geo/id/01bd241973160cac.json"
+            }, 
+            "possibly_sensitive": false, 
+            "retweet_count": 6, 
+            "retweeted": false, 
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>", 
+            "text": "Former Wildcats are in town tonight!\nOregon Ducks @ University of Portland @ 6:00pm!\n@kenyonyovan21 @ParkerKelly20\u2026 https://t.co/13ZGE1IClv", 
+            "truncated": true, 
+            "user": {
+                "contributors_enabled": false, 
+                "created_at": "Tue Jan 13 21:43:33 +0000 2015", 
+                "default_profile": false, 
+                "default_profile_image": false, 
+                "description": "Welcome to the official site of Westview Wildcats HS Varsity Baseball page!  Follow us for up-to-date schedules, scores, pictures & more! #losgatos16", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "favourites_count": 1133, 
+                "follow_request_sent": false, 
+                "followers_count": 427, 
+                "following": false, 
+                "friends_count": 399, 
+                "geo_enabled": true, 
+                "has_extended_profile": false, 
+                "id": 2980673738, 
+                "id_str": "2980673738", 
+                "is_translation_enabled": false, 
+                "is_translator": false, 
+                "lang": "en", 
+                "listed_count": 7, 
+                "location": "Beaverton, OR", 
+                "name": "Westview HS Baseball", 
+                "notifications": false, 
+                "profile_background_color": "131516", 
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/555128280374706176/_hiEwlXg.jpeg", 
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/555128280374706176/_hiEwlXg.jpeg", 
+                "profile_background_tile": true, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2980673738/1421201365", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/744045004075769857/oNBEMo2V_normal.jpg", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/744045004075769857/oNBEMo2V_normal.jpg", 
+                "profile_link_color": "000066", 
+                "profile_sidebar_border_color": "EEEEEE", 
+                "profile_sidebar_fill_color": "EFEFEF", 
+                "profile_text_color": "333333", 
+                "profile_use_background_image": true, 
+                "protected": false, 
+                "screen_name": "losgatos_WHS", 
+                "statuses_count": 3252, 
+                "time_zone": null, 
+                "translator_type": "none", 
+                "url": null, 
+                "utc_offset": null, 
+                "verified": false
+            }
+        }
+    ]
+}
