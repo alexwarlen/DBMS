@@ -27,6 +27,32 @@ resp = twitter.search.tweets(q='"University of Portland"', result_type='recent',
 
 import mysql.connector
 
+def add_quotes(str):
+	return "\"" + str + "\""
+
+def timestamp_to_str(datetime):
+	month = month_to_num(datetime[4:7])
+	day = datetime[8:10]
+	year = datetime[26:]
+	time = datetime[11:19]
+	return "\""+ str(year) + "-" + str(month) + "-" + str(day) + " " + str(time) + "\""
+
+
+
+def month_to_num(month):
+	return {
+		'Jan' : 1,
+		'Feb' : 2,
+		'Mar' : 3,
+		'Apr'	 : 4,
+		'May' : 5,
+		'Jun' : 6,
+		'Jul' : 7,
+		'Aug' : 8,
+		'Sep' : 9,
+		'Oct' : 10,
+		'Nov' : 11,
+		'Dec' : 12 }[month]
 
 
 try:
@@ -52,7 +78,7 @@ except mysql.connector.Error as err:
 for r in resp["statuses"]:
 	
 	#tweet information
-	tweet_id = r["id"]
+	tweet_id = r["id_str"]
 	print tweet_id
 	timestamp = r["created_at"]
 	favorite_ct = r["favorite_count"]
@@ -65,7 +91,7 @@ for r in resp["statuses"]:
 
 	#user information
 	user = r["user"]
-	user_id = user["id"]
+	user_id = user["id_str"]
 	screenname = user["screen_name"]
 	followers = user["followers_count"]
 	friends = user["friends_count"]
@@ -76,7 +102,14 @@ for r in resp["statuses"]:
 	user_name = user["name"]
 	timezone = user["time_zone"]
 	num_statuses = user["statuses_count"]
-	
+
+	if cnx is None:
+		print "no connection"
+	else:
+		cursor = cnx.cursor()
+		query = ("INSERT INTO users"
+				 "(user_id, screen_name, user_name, followers, friends, location, user_since, description, favorites, timezone, num_statuses) "
+				 "VALUES (" + add_quotes(user_id) + ", " + add_quotes(screenname) + ", " + add_quotes(user_name) + ", " + str(followers) + ", " + str(friends) + ", " + add_quotes(location) + ", " + timestamp_to_str(user_since) + ", " + add_quotes(user_description) + ", " + str(favorites) + "," + add_quotes(timezone) + ", " + str(num_statuses) + ")")
 	
 	#hashtags & user mentions
 	if r["entities"] != None:
@@ -92,22 +125,22 @@ for r in resp["statuses"]:
 					hashtag = h["text"]
 					query = ("INSERT INTO hashtags"
 							 "(tweet_id, user_id, hashtag) "
-							 "VALUES (" + str(tweet_id) +", " + str(user_id) + ", \"" + hashtag + "\")")
-							 cursor.execute(query)
+							 "VALUES (" + add_quotes(tweet_id) +", " + add_quotes(user_id) + ", " + add_quotes(hashtag) + ")")
+					cursor.execute(query)
 		#user mentions
-	if r["entities"]["user_mentions"] != None:
-		for u in r["entities"]["user_mentions"]:
-			if cnx is None:
-				print "no connection"
-			else:
-				cursor = cnx.cursor()
+		if r["entities"]["user_mentions"] != None:
+			for u in r["entities"]["user_mentions"]:
+				if cnx is None:
+					print "no connection"
+				else:
+					cursor = cnx.cursor()
 					
-				screen_name_m = u["screen_name"]
-				name_m = u["name"]
-				query = ("INSERT INTO user_mentions"
-						"(tweet_id, user_name, mentioned_screen_name) "
-						"VALUES (" + str(tweet_id) +", \"" + name_m + "\", \"" + screen_name_m + "\")")
-				cursor.execute(query)
+					screen_name_m = u["screen_name"]
+					name_m = u["name"]
+					query = ("INSERT INTO user_mentions"
+							"(tweet_id, user_name, mentioned_screen_name) "
+							"VALUES (" + add_quotes(tweet_id) +", " + add_quotes(name_m) + ", " + add_quotes(screen_name_m) + ")")
+					cursor.execute(query)
 
 
 
