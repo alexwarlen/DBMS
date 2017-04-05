@@ -60,8 +60,6 @@ try:
 								  host='egr4.campus.up.edu',
 								  database='warlen17')
 
-#for (a, b, c) in cursor:
-#print("{}, {} was hired on".format(a,b))
 
 except mysql.connector.Error as err:
 	if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
@@ -88,29 +86,60 @@ for r in resp["statuses"]:
 		place = r["place"]["full_name"]
 	retweets = r["retweet_count"]
 	tweet_text = r["text"]
+	tweet_text = tweet_text.encode('ascii', 'ignore').decode('ascii')
+	print tweet_text
 
 	#user information
 	user = r["user"]
 	user_id = user["id_str"]
+	if user_id is None:
+		user_id = ""
 	screenname = user["screen_name"]
+	if screenname is None:
+		screenname = ""
 	followers = user["followers_count"]
+
 	friends = user["friends_count"]
 	location = user["location"]
+	if location is None:
+		location = ""
 	user_since = user["created_at"]
+
 	user_description = user["description"]
+	if user_description is None:
+		user_description = ""
 	favorites = user["favourites_count"]
+
 	user_name = user["name"]
+	if user_name is None:
+		user_name = ""
 	timezone = user["time_zone"]
+	if timezone is None:
+		timezone = ""
 	num_statuses = user["statuses_count"]
 
+	#users
 	if cnx is None:
 		print "no connection"
 	else:
 		cursor = cnx.cursor()
-		query = ("INSERT INTO users"
+		query = ("INSERT IGNORE INTO users"
 				 "(user_id, screen_name, user_name, followers, friends, location, user_since, description, favorites, timezone, num_statuses) "
 				 "VALUES (" + add_quotes(user_id) + ", " + add_quotes(screenname) + ", " + add_quotes(user_name) + ", " + str(followers) + ", " + str(friends) + ", " + add_quotes(location) + ", " + timestamp_to_str(user_since) + ", " + add_quotes(user_description) + ", " + str(favorites) + "," + add_quotes(timezone) + ", " + str(num_statuses) + ")")
-	
+		
+		cursor.execute(query)
+	#tweets
+	if cnx is None:
+		print "no connection"
+	else:
+		cursor = cnx.cursor()
+		query = ("INSERT INTO tweets"
+				 "(tweet_id, created_at, tweet_text, favorite_count, place, retweets, user_id) "
+				 "VALUES (" + add_quotes(tweet_id) + ", " + timestamp_to_str(timestamp) + ", " + (add_quotes(tweet_text)) + ", " + str(favorite_ct) + ", " + add_quotes(place) + ", " + str(retweets) + ", " + add_quotes(user_id) + ")")
+
+		cursor.execute(query)
+
+
 	#hashtags & user mentions
 	if r["entities"] != None:
 		#hashtags
