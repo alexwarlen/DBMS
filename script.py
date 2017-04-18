@@ -126,14 +126,17 @@ for r in resp["statuses"]:
 		query = ("INSERT IGNORE INTO users"
 				 "(user_id, screen_name, user_name, followers, friends, location, user_since, description, favorites, timezone, num_statuses) "
 				 "VALUES (" + add_quotes(user_id) + ", " + add_quotes(screenname) + ", " + add_quotes(user_name) + ", " + str(followers) + ", " + str(friends) + ", " + add_quotes(location) + ", " + timestamp_to_str(user_since) + ", " + add_quotes(user_description) + ", " + str(favorites) + "," + add_quotes(timezone) + ", " + str(num_statuses) + ")")
+		try:
+			cursor.execute(query)
+		except mysql.connector.Error as err:
+			print err
 		
-		cursor.execute(query)
 	#tweets
 	if cnx is None:
 		print "no connection"
 	else:
 		cursor = cnx.cursor()
-		query = ("INSERT INTO tweets"
+		query = ("INSERT IGNORE INTO tweets"
 				 "(tweet_id, created_at, tweet_text, favorite_count, place, retweets, user_id) "
 				 "VALUES (" + add_quotes(tweet_id) + ", " + timestamp_to_str(timestamp) + ", " + (add_quotes(tweet_text)) + ", " + str(favorite_ct) + ", " + add_quotes(place) + ", " + str(retweets) + ", " + add_quotes(user_id) + ")")
 
@@ -152,7 +155,7 @@ for r in resp["statuses"]:
 					
 					
 					hashtag = h["text"]
-					query = ("INSERT INTO hashtags"
+					query = ("INSERT IGNORE INTO hashtags"
 							 "(tweet_id, user_id, hashtag) "
 							 "VALUES (" + add_quotes(tweet_id) +", " + add_quotes(user_id) + ", " + add_quotes(hashtag) + ")")
 					cursor.execute(query)
@@ -166,7 +169,7 @@ for r in resp["statuses"]:
 					
 					screen_name_m = u["screen_name"]
 					name_m = u["name"]
-					query = ("INSERT INTO user_mentions"
+					query = ("INSERT IGNORE INTO user_mentions"
 							"(tweet_id, user_name, mentioned_screen_name) "
 							"VALUES (" + add_quotes(tweet_id) +", " + add_quotes(name_m) + ", " + add_quotes(screen_name_m) + ")")
 					cursor.execute(query)

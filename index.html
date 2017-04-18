@@ -11,16 +11,21 @@
     <script src="jquery-3.2.0.min.js"></script>
     <!--Load the AJAX API-->
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	 <script type="text/javascript" src="controller.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <meta name="description" content="">
     <meta name="author" content="">
-    
+		<style>
+		#visualization {
+		width: 1000px;
+		height: 700px;
+		}</style>
 
     <title>Team Rocket - Database Management Systems</title>
 
     
-    
-    <script type="text/javascript">
+	
+   <!-- <script type="text/javascript">
         $.ajaxPrefilter(function( options, original_Options, jqXHR ) {
     options.async = true;
 });
@@ -52,12 +57,66 @@
             chart.draw(data, {width: 400, height: 240});
         }
 
-    </script>
+    </script>-->
+   
 </head>
 
     <body>
         <!--Div that will hold the pie chart-->
-        <div id="chart_div"></div>
+		<div class="container">
+			<div class="page-header">
+				<h1>Kidney Stones</h1>
+				<h2>Shark Bowl</h2>
+				<p>Welcome to Shark Bowl, an interactive webpage to visualize data about the 96 largest companies in the United States. Please choose data sets to compare via the drop-down menus below and clicking Submit. Once the graph has been generated, be sure to hover over the data points for more information! Thanks for stopping by!
+			</div>
+			
+			<div class="row">
+    <div class="col-md-4">
+		<h5> X-Axis </h5>
+	</div>
+	<div class="col-md-4">
+		<h5> Y-Axis </h5>
+	</div>
+	<div class="col-md-4">
+		<h5> Bubble Size </h5>
+	</div>
+			</div>
+			
+			<div class="row">
+    <div class="col-md-4">
+		<select class="form-control" id="x-axis" onchange="namespace.module.onSubmit()">
+			<option value ="Stress">Stress</option>
+			<option value="Satisfaction">Satisfaction</option>
+			<option value="Meaning">Job Meaning</option>
+			<option value="Median">Median Pay</option>
+		</select>
+	</div>
+	<div class="col-md-4">
+		<select class="form-control" id="y-axis" onchange="namespace.module.onSubmit()">
+			<option value="Satisfaction">Satisfaction</option>
+			<option value ="Stress">Stress</option>
+			<option value="Meaning">Job Meaning</option>
+			<option value="Median">Median Pay</option>
+		</select>
+	</div>
+	<div class="col-md-4">
+		<select class="form-control" id="bubbledata" onchange="namespace.module.onSubmit()">
+			<option value="CEO">CEO Pay</option>
+			<option value ="Revenue">Company Revenue</option>
+			<option value="Ratio">CEO : Avg. Worker Pay Ratio</option>
+			<option value="Median">Median Pay</option>
+		</select>
+	</div>
+	
+	<div class="col-md-4">
+		<button class="btn btn-primary" onClick="namespace.module.drawVisualization()">Submit</button>
+	</div>
+			</div>
+			
+			<div class="col-md-12" id="visualization">
+			</div>
+			
+		</div>
     </body>
 
 </html>
