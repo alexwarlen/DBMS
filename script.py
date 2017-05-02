@@ -44,7 +44,7 @@ def month_to_num(month):
 		'Jan' : 1,
 		'Feb' : 2,
 		'Mar' : 3,
-		'Apr'	 : 4,
+		'Apr' : 4,
 		'May' : 5,
 		'Jun' : 6,
 		'Jul' : 7,
@@ -56,9 +56,9 @@ def month_to_num(month):
 
 
 try:
-	cnx = mysql.connector.connect(user='warlen17', password='warlen17',
-								  host='egr4.campus.up.edu',
-								  database='warlen17')
+	cnx = mysql.connector.connect(user='root', password='elvisp',
+								  host='localhost',
+								  database='teamrocket')
 
 
 except mysql.connector.Error as err:
@@ -124,7 +124,7 @@ for r in resp["statuses"]:
 	else:
 		cursor = cnx.cursor()
 		query = ("INSERT IGNORE INTO users"
-				 "(user_id, screen_name, user_name, followers, friends, location, user_since, description, favorites, timezone, num_statuses) "
+				 "(user_id, screen_name, user_name, followers, friends, location, user_since, description, favorities, timezone, num_statuses) "
 				 "VALUES (" + add_quotes(user_id) + ", " + add_quotes(screenname) + ", " + add_quotes(user_name) + ", " + str(followers) + ", " + str(friends) + ", " + add_quotes(location) + ", " + timestamp_to_str(user_since) + ", " + add_quotes(user_description) + ", " + str(favorites) + "," + add_quotes(timezone) + ", " + str(num_statuses) + ")")
 		try:
 			cursor.execute(query)
