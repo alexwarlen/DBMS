@@ -56,7 +56,7 @@ def month_to_num(month):
 
 
 try:
-	cnx = mysql.connector.connect(user='root', password='elvisp',
+	cnx = mysql.connector.connect(user='root', password='***',
 								  host='localhost',
 								  database='teamrocket')
 
@@ -178,40 +178,3 @@ for r in resp["statuses"]:
 
 
 cnx.close()
-'''
-	
-	import mysql.connector
-	
-	
-	
-	try:
-	cnx = mysql.connector.connect(user='warlen17', password='warlen17',
-	host='egr4.campus.up.edu',
-	database='warlen17')
-	if cnx is None:
-	print "no connection"
-	else:
-	print cnx
-	cursor = cnx.cursor()
-	age = 5
-	query = ("INSERT INTO test"
-	"(name, age, birthday) "
-	"VALUES ('dabs', 5,'1994-04-17')")
-	
-	
-	cursor.execute(query)
-	#for (a, b, c) in cursor:
-	#print("{}, {} was hired on".format(a,b))
-	
-	except mysql.connector.Error as err:
-	if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
-	print("Something is wrong with your user name or password")
-	elif err.errno == errorcode.ER_BAD_DB_ERROR:
-	print("Database does not exist")
-	else:
-	print(err)
-	else:
-	cnx.close()
-	
-	'''
-

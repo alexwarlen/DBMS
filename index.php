@@ -111,7 +111,7 @@ if (mysqli_num_rows($result) > 0) {
         <?php
           $servername = "localhost";
           $username = "root";
-          $password = "elvisp";
+          $password = "****";
           $dbname = "teamrocket";
 
           // Create connection
@@ -160,7 +160,7 @@ if (mysqli_num_rows($result) > 0) {
         <?php
           $servername = "localhost";
           $username = "root";
-          $password = "elvisp";
+          $password = "****";
           $dbname = "teamrocket";
 
           // Create connection
@@ -211,7 +211,7 @@ if (mysqli_num_rows($result) > 0) {
         <?php
           $servername = "localhost";
           $username = "root";
-          $password = "elvisp";
+          $password = "****";
           $dbname = "teamrocket";
 
           // Create connection
